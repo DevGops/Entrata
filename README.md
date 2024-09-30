@@ -21,8 +21,8 @@ Ensure you have the following installed:
 Clone the project repository to your local machine:
 
 ```bash
-git clone <repository-link>
-cd <repository-directory>
+git clone https://github.com/DevGops/Entrata.git
+cd Entrata
 ```
 ### Install Dependencies
 
