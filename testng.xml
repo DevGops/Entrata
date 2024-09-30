@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Entrata Test Suite" verbose="2" parallel="classes" thread-count="1">
+    <listeners>
+        <listener class-name="listeners.Listeners"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="WatchDemo.java">
+        <classes>
+            <class name="testsEntrata.WatchDemo"/>
+            <class name="testsEntrata.LoginTest"/>
+            <class name="testsEntrata.NavigationTest"/>
+        </classes>
+    </test>
+</suite>
