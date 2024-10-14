@@ -63,7 +63,7 @@ public class BaseTest extends BrowserFactory {
 
 		log = Logger.getLogger(getClass());
 		String path = System.getProperty("user.dir");
-		PropertyConfigurator.configure(path + "./src/main/resources/log4jFiles/log4j.properties");
+		PropertyConfigurator.configure(path + "/src/main/resources/log4jFiles/log4j.properties");
 		driver.manage().window().maximize();
 	}
 
